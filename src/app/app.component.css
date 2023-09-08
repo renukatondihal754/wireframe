@@ -1,0 +1,118 @@
+.greenyellow {
+  color: #c3d210;
+}
+
+.greenyellowback {
+  background-color: #c3d210;
+}
+
+a:hover {
+  color: white;
+}
+
+.img-thumbnail {
+  background-color: #dfdddd;
+}
+.ana {
+  position: relative;
+}
+.pos {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.pos1 {
+  position: absolute;
+  left: 33%;
+  top: 70%;
+}
+
+.rowalign {
+  display: flex;
+  justify-content: center;
+  height: 135px;
+}
+
+.pos2 {
+  position: absolute;
+  top: 70%;
+  left: 27%;
+}
+.backgroundimg1 {
+  background-image: url("/assets/depositphotos_74304551-stock-photo-grunge-blank-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+}
+
+.backgroundimg2 {
+  background-image: url("/assets/depositphotos_74304641-stock-photo-grunge-vintage-blank-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+}
+
+.backgroundimg3 {
+  background-image: url("/assets/depositphotos_74400443-stock-photo-grunge-blank-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+}
+
+.backalign {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 300px;
+}
+
+.backgroundimg4 {
+  background-image: url("/assets/apple_me086ll_a_21_5_imac_desktop_computer_1006607.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+}
+
+.backgroundimg5 {
+  height: 200px;
+}
+
+.imgt {
+  background-color: white;
+  border: #dfdddd;
+}
+
+@media screen and (max-width: 767px) {
+  .rowresponsve {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+    gap: 20px;
+  }
+  .ana {
+    position: relative;
+  }
+  .pos {
+    position: absolute;
+    top: 14%;
+  }
+
+  .pos1 {
+    position: absolute;
+    top: 66%;
+  }
+
+  .pos2 {
+    position: relative;
+    left: 0%;
+    top: 58%;
+  }
+  .imgt {
+    margin-bottom: -5rem;
+  }
+}
